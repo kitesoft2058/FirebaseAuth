@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/et_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input password"
+        android:inputType="textVisiblePassword"/>
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        android:drawableLeft="@drawable/ic_baseline_email_24"/>
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign in"
+        android:backgroundTint="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_email_24"/>
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GOOGLE LOGIN"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ"
+        android:layout_width="160dp"
+        android:layout_height="160dp"/>
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="profile"
+        android:backgroundTint="@color/teal_200"/>
+    <Button
+        android:id="@+id/btn_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pick"
+        android:backgroundTint="@color/teal_700"/>
+
+
+
+
+</LinearLayout>
